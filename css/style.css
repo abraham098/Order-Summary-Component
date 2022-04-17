@@ -1,0 +1,151 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+  margin: 0;
+  background-image: url("pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+h1{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 1.7em;
+}
+
+p{
+  color: hsl(224, 23%, 55%);
+  font-weight:500;
+
+}
+
+.order-plan{
+  width:30%;
+  background: white;
+  text-align: center;
+  border-radius: .9em;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+}
+
+.container{
+  padding:.5em;
+}
+
+h2{
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+
+.illustration{
+  width: 100%;
+  border-radius: .9em .9em 0 0;
+}
+
+.plan{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  background: hsl(225, 100%, 98%);
+  border-radius: .8em;
+  width: 90%;
+  padding: .5em 0 .5em 0;
+}
+
+.summary{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.row{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.col p{
+  margin-top: 5px;
+}
+
+.change{
+  color:hsl(245, 75%, 52%);
+}
+
+.change:active{
+  opacity: .8;
+  text-decoration: none;
+}
+
+.cta{
+  display:flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 1.5em auto 1.2em auto;
+
+}
+
+.btn{
+  background: hsl(245, 75%, 52%);
+  text-decoration: none;
+  color: white;
+  padding: .8em;
+  border-radius: .8em;
+  margin-bottom: 2em;
+  font-weight: 700;
+  box-shadow: 0 10px  20px grey;
+}
+
+.btn:active{
+  opacity: .8;
+}
+
+.cancel{
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+
+.cancel:active{
+  color: hsl(223, 47%, 23%);
+}
+
+footer{
+  background: hsl(225, 100%, 94%);
+}
+
+@media (max-width: 375px){
+
+  body{
+    background-image: url("pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+  }
+
+  .plan{
+    width:100%
+  }
+
+  .order-plan{
+    width:90%;
+  }
+}
