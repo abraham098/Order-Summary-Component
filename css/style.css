@@ -134,7 +134,7 @@ footer{
   background: hsl(225, 100%, 94%);
 }
 
-@media (max-width: 375px){
+@media (max-width: 760px){
 
   body{
     background-image: url("pattern-background-mobile.svg");
